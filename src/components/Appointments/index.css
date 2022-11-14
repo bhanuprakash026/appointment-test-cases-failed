@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.main-container {
+  height: 90%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  width: 60%;
+}
+.header {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #171f46;
+  font-size: 28px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+.form-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.label {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+}
+.title-input {
+  border: 2px solid #b5b7c4;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+  width: 270px;
+  margin-top: 8px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #171f46;
+  margin-bottom: 15px;
+}
+.btn {
+  padding: 6px 10px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #fff;
+  outline: none;
+  border-radius: 5px;
+  border-width: 0;
+  cursor: pointer;
+  background-color: #8b5cf6;
+}
+.img {
+  height: 220px;
+  width: 350px;
+}
+.hr {
+  border: 1px solid #b5b7c4;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.bottom-header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.bottom-header {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #171f46;
+  font-size: 20px;
+}
+.starred-btn {
+  background-color: transparent;
+  outline: none;
+  border: solid #9897f0 2px;
+  padding: 6px 10px;
+  border-radius: 20px;
+  color: #9897f0;
+  font-family: 'Roboto';
+  font-weight: 600;
+  cursor: pointer;
+}
+.ul {
+  list-style-type: none;
+  padding-left: 0;
+}
